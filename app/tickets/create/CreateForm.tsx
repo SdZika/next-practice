@@ -26,7 +26,7 @@ const handleSubmit = async (e: any) => {
  })
 
  if (res.status === 201){
-    router.replace(router.asPath);
+ 
     router.push("/tickets")
  }
 }
